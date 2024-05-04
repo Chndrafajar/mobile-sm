@@ -1,0 +1,113 @@
+export const Product = {
+  productItem: [
+    {
+      id: 1,
+      name: 'Lenovo Yoga',
+      imgThumbnail: '/images/product/Lenovo Yoga.png',
+      totalStars: 12,
+      starNumber: 3,
+      price: 8000000,
+    },
+    {
+      id: 2,
+      name: 'Samsung galaxy note 20',
+      imgThumbnail: '/images/product/samsung galaxy note 20.png',
+      totalStars: 12,
+      starNumber: 3,
+      price: 8000000,
+    },
+    {
+      id: 3,
+      name: 'Amazfit Bip Smartwatch',
+      imgThumbnail: '/images/product/Xiaomi Amazfit Bip Smartwatch.png',
+      totalStars: 12,
+      starNumber: 3,
+      price: 8000000,
+    },
+    {
+      id: 4,
+      name: 'Iphone 11 pro max',
+      imgThumbnail: '/images/product/Iphone 11 pro max.png',
+      totalStars: 12,
+      starNumber: 3,
+      price: 8000000,
+    },
+    {
+      id: 5,
+      name: 'Go Pro Camera5',
+      imgThumbnail: '/images/product/Go Pro Camera5.png',
+      totalStars: 12,
+      starNumber: 3,
+      price: 8000000,
+    },
+    {
+      id: 6,
+      name: 'Headset X360',
+      imgThumbnail: '/images/product/Headset X360.png',
+      totalStars: 12,
+      starNumber: 3,
+      price: 8000000,
+    },
+    {
+      id: 7,
+      name: 'Ipad Air 2',
+      imgThumbnail: '/images/product/Ipad Air 2.png',
+      totalStars: 12,
+      starNumber: 3,
+      price: 8000000,
+    },
+    {
+      id: 8,
+      name: 'Mouse Computer',
+      imgThumbnail: '/images/product/Mouse Computer.png',
+      totalStars: 12,
+      starNumber: 3,
+      price: 8000000,
+    },
+  ],
+};
+
+export const CatRecom = [
+  {
+    id: 1,
+    item: 5,
+    name: 'Accessories',
+    img: '/images/product/Mouse Computer.png',
+  },
+  {
+    id: 2,
+    item: 7,
+    name: 'Ipad',
+    img: '/images/product/Ipad Air 2.png',
+  },
+  {
+    id: 3,
+    item: 10,
+    name: 'Iphone',
+    img: '/images/product/Iphone 11 pro max.png',
+  },
+  {
+    id: 4,
+    item: 20,
+    name: 'Audio Devices',
+    img: '/images/product/Headset X360.png',
+  },
+  {
+    id: 6,
+    item: 5,
+    name: 'Laptop',
+    img: '/images/product/Lenovo Yoga.png',
+  },
+  {
+    id: 7,
+    item: 40,
+    name: 'Smartphone',
+    img: '/images/product/samsung galaxy note 20.png',
+  },
+  {
+    id: 8,
+    item: 5,
+    name: 'Jam Tangan',
+    img: '/images/product/Xiaomi Amazfit Bip Smartwatch.png',
+  },
+];

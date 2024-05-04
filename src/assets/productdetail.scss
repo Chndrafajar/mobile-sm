@@ -1,0 +1,203 @@
+.product-detail {
+  padding: 40px 0px;
+  background-color: #f1f3f7;
+
+  .container {
+    .row {
+      .col-lg-7 {
+        .card {
+          border: none;
+        }
+
+        .slider-card {
+          width: 150px;
+          height: 150px;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          background-color: #fff;
+          margin-top: 20px;
+          border: 1px solid rgb(188, 188, 188);
+
+          .slider-items {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            img {
+              width: 110px;
+            }
+          }
+        }
+      }
+      .col-lg-5 {
+        .card {
+          border: none;
+          padding: 25px 25px;
+          .color-input {
+            margin-top: 0.5rem;
+            display: flex;
+            gap: 10px;
+            .color-radio {
+              width: 40px;
+              height: 40px;
+              border-radius: 50%;
+              img {
+                width: 100%;
+                border-radius: 50%;
+              }
+
+              &:hover {
+                border: 1.5px solid #000;
+              }
+            }
+
+            .color-radio.active {
+              border: 1.5px solid #000;
+            }
+          }
+          h1 {
+            font-weight: 600;
+            color: rgb(51, 51, 51);
+            margin-bottom: 1rem;
+            font-size: 35px;
+          }
+          .star-icon {
+            display: flex;
+            align-items: center;
+            gap: 2px;
+            margin-bottom: 1rem;
+            svg {
+              color: orange;
+              font-size: 16px;
+            }
+          }
+          .price {
+            color: rgb(51, 51, 51);
+            font-size: 30px;
+          }
+
+          .varian-color {
+            font-size: 16px;
+            margin-top: 1rem;
+            color: rgb(51, 51, 51);
+          }
+          .quantity {
+            margin-top: 15px;
+            display: flex;
+            align-items: center;
+            gap: 40px;
+
+            .input-quantity {
+              display: flex;
+              align-items: center;
+              gap: 40px;
+              span {
+                color: rgb(51, 51, 51);
+              }
+            }
+          }
+        }
+      }
+
+      .col-12 {
+        .card {
+          border: none;
+          padding: 25px 25px;
+        }
+        .nav-pills {
+          gap: 40px;
+          .nav-item {
+            .nav-link {
+              font-size: 20px;
+              cursor: pointer;
+              padding: 0px;
+            }
+            .nav-link.active {
+              color: rgb(51, 51, 51);
+              text-decoration: underline;
+              font-weight: 600;
+              background-color: inherit;
+            }
+          }
+        }
+        .desc {
+          p {
+            margin-top: 20px;
+            font-size: 16px;
+            color: rgb(51, 51, 51);
+          }
+          ol {
+            li {
+              color: rgb(51, 51, 51);
+              font-size: 16px;
+            }
+          }
+        }
+      }
+      .col-md-6 {
+        margin-bottom: 20px;
+        .card {
+          border: none;
+          border-radius: 10px;
+          padding: 20px 0px;
+          img {
+            margin-bottom: 20px;
+            border-radius: 20px;
+          }
+          .icons {
+            position: absolute;
+            top: 10px;
+            left: 12px;
+            opacity: 0;
+
+            .items {
+              width: 35px;
+              height: 35px;
+              margin-bottom: 10px;
+              display: flex;
+              align-items: center;
+              justify-content: center;
+              border-radius: 50%;
+              background-color: #fff;
+              border: 1px solid #dee2e6;
+              cursor: pointer;
+
+              &:hover {
+                background-color: #000;
+                color: #fff;
+                border-color: #000;
+              }
+            }
+          }
+          .desc {
+            padding: 0px 12px;
+            .title {
+              font-size: 15.5px;
+              font-weight: 500;
+            }
+            .star {
+              margin-top: 5px;
+              margin-bottom: 5px;
+              display: flex;
+              align-items: center;
+              gap: 2px;
+              svg {
+                font-size: 14px;
+                color: orange;
+              }
+            }
+            .price {
+              font-size: 15.5px;
+            }
+          }
+          &:hover {
+            .icons {
+              opacity: 1;
+              transition: all 0.8 ease;
+            }
+          }
+        }
+      }
+    }
+  }
+}
