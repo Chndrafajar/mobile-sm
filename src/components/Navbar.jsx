@@ -76,9 +76,9 @@ export default function Navbar() {
           <div className="nav-bar">
             <FaBars data-bs-toggle="offcanvas" data-bs-target="#offcanvasScrolling" aria-controls="offcanvasScrolling" />
           </div>
-          <a className="navbar-brand">
+          <NavLink to="/" className="navbar-brand">
             <img src="/images/icons/icon-msm.png" alt="" />
-          </a>
+          </NavLink>
           <div className="cart-search">
             <FaCartShopping type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasCart" aria-controls="offcanvasCart" />
             <IoSearch type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasSearch" aria-controls="offcanvasSearch" />

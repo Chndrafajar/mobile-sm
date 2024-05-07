@@ -712,7 +712,7 @@
             justify-content: space-between;
 
             .desc {
-              z-index: 999;
+              z-index: 998;
               h5 {
                 color: rgba(255, 255, 255, 0.866);
                 text-transform: uppercase;
@@ -733,10 +733,12 @@
                 margin-top: 20px;
                 display: flex;
                 gap: 10px;
+                z-index: 998;
 
                 .date-item {
                   padding: 5px 10px;
                   color: #fff;
+                  z-index: 998;
                   background-color: #000;
                 }
               }
@@ -999,7 +1001,7 @@
 }
 @media only screen and (max-width: 768px) {
   .diskon-product .container .row .col-lg-6 .card .items .desc {
-    z-index: 999;
+    z-index: 998;
     h2 {
       font-size: 20px;
     }
@@ -1023,6 +1025,9 @@
   }
   .product-detail {
     padding: 90px 0px;
+  }
+  .footer {
+    margin-bottom: 20px;
   }
 }
 @media only screen and (max-width: 400px) {
